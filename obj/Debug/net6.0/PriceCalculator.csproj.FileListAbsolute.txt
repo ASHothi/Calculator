@@ -1,0 +1,15 @@
+C:\Users\Anandbir\source\repos\PriceCalculator\PriceCalculator\bin\Debug\net6.0\PriceCalculator.exe
+C:\Users\Anandbir\source\repos\PriceCalculator\PriceCalculator\bin\Debug\net6.0\PriceCalculator.deps.json
+C:\Users\Anandbir\source\repos\PriceCalculator\PriceCalculator\bin\Debug\net6.0\PriceCalculator.runtimeconfig.json
+C:\Users\Anandbir\source\repos\PriceCalculator\PriceCalculator\bin\Debug\net6.0\PriceCalculator.dll
+C:\Users\Anandbir\source\repos\PriceCalculator\PriceCalculator\bin\Debug\net6.0\ref\PriceCalculator.dll
+C:\Users\Anandbir\source\repos\PriceCalculator\PriceCalculator\bin\Debug\net6.0\PriceCalculator.pdb
+C:\Users\Anandbir\source\repos\PriceCalculator\PriceCalculator\obj\Debug\net6.0\PriceCalculator.csproj.AssemblyReference.cache
+C:\Users\Anandbir\source\repos\PriceCalculator\PriceCalculator\obj\Debug\net6.0\PriceCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anandbir\source\repos\PriceCalculator\PriceCalculator\obj\Debug\net6.0\PriceCalculator.AssemblyInfoInputs.cache
+C:\Users\Anandbir\source\repos\PriceCalculator\PriceCalculator\obj\Debug\net6.0\PriceCalculator.AssemblyInfo.cs
+C:\Users\Anandbir\source\repos\PriceCalculator\PriceCalculator\obj\Debug\net6.0\PriceCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Anandbir\source\repos\PriceCalculator\PriceCalculator\obj\Debug\net6.0\PriceCalculator.dll
+C:\Users\Anandbir\source\repos\PriceCalculator\PriceCalculator\obj\Debug\net6.0\ref\PriceCalculator.dll
+C:\Users\Anandbir\source\repos\PriceCalculator\PriceCalculator\obj\Debug\net6.0\PriceCalculator.pdb
+C:\Users\Anandbir\source\repos\PriceCalculator\PriceCalculator\obj\Debug\net6.0\PriceCalculator.genruntimeconfig.cache
