@@ -11,6 +11,7 @@ namespace PriceCalculator
 
             do
             {
+
                 Console.WriteLine("what is the height of the wall?");
                 double heightOfWall = double.Parse(Console.ReadLine());
 
@@ -18,6 +19,12 @@ namespace PriceCalculator
                 double widthOfWall = double.Parse(Console.ReadLine());
 
                 double areaOfWall = heightOfWall * widthOfWall;
+
+                do
+                {
+
+                }
+                while ();
 
                 Console.WriteLine("Are there areas of the wall that don't need painting? (y/n)");
                 if (Console.ReadLine().Equals("y"))
@@ -71,7 +78,7 @@ namespace PriceCalculator
                 double milesTraveled = double.Parse(Console.ReadLine());
                 double fuelCostPerMile = 0.12;
 
-                double profitPercent = 0.4;
+                //double profitPercent = 0.4;
                 double taxRate = 0.2;
 
                 // TODO Costs calculation section needs to be redone
@@ -81,6 +88,7 @@ namespace PriceCalculator
                 double profitAfterTax = (costForCustomer - (costForCustomer * taxRate)) - totalCost;
 
                 Console.WriteLine("Cost of goods and travel = £" + Math.Round(totalCost, 2));
+                Console.WriteLine("Quote = £" + Math.Round(costForCustomer, 2));
                 //Console.WriteLine("In order to earn " + (profitPercent * 100) + "% profit charge £" + Math.Round(costForCustomer, 2));
                 Console.WriteLine("Profit made after tax = £" + Math.Round(profitAfterTax, 2));
 
@@ -103,3 +111,5 @@ namespace PriceCalculator
 // TODO allow multiple walls to be added 
 // TODO redo Costs calculation section 
 // TODO Add verfication for the ReadLine to make sure only numbers are entered
+// TODO doors and window
+// TODO number of coats
