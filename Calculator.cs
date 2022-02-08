@@ -52,6 +52,9 @@ namespace PriceCalculator
                     Console.WriteLine("What paint colour are you using for wall " + i + "?");
                     string paintColour = Console.ReadLine();
 
+                    Console.WriteLine("What paint colour are you using for wall " + i + "?");
+                    string paintType = Console.ReadLine();
+
                     double costOfPaintCans;
 
                     switch (paintColour)
@@ -67,6 +70,17 @@ namespace PriceCalculator
                             break;
                         default:
                             costOfPaintCans = 15.99;
+                            break;
+                    }
+
+                    switch (paintType)
+                    {
+                        case "glossy":
+                            costOfPaintCans += 5;
+                            break;
+                        case "matte":
+                            break;
+                        default:
                             break;
                     }
 
