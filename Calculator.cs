@@ -52,7 +52,7 @@ namespace PriceCalculator
                     Console.WriteLine("What paint colour are you using for wall " + i + "?");
                     string paintColour = Console.ReadLine();
 
-                    Console.WriteLine("What paint colour are you using for wall " + i + "?");
+                    Console.WriteLine("What paint Type are you using for wall " + i + "?");
                     string paintType = Console.ReadLine();
 
                     double costOfPaintCans;
@@ -90,9 +90,10 @@ namespace PriceCalculator
                     // Assumption 1 litre paint covers 10m^2 of wall
                     int numOfPaintCans = (int) Math.Ceiling((areaOfWall * numOfCoats) / 10.0);
                     totalCostOfPaint = numOfPaintCans * costOfPaintCans;
+                    
                     Console.WriteLine(
-                        "The number of " + paintColour + " 1 litre paint cans you need for " + numOfCoats + " coat(s) of wall " + i 
-                        + " is " + numOfPaintCans + "."  
+                        "The number of " + paintColour + " 1 litre paint cans you need for " + numOfCoats + 
+                        " coat(s) of wall " + i + " is " + numOfPaintCans + "."  
                     );
                     Console.WriteLine("this will Cost £" + Math.Round(totalCostOfPaint, 2));
 
